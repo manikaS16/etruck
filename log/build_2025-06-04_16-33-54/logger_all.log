@@ -1,0 +1,129 @@
+[0.540s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'dumb_truck_controller']
+[0.540s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['dumb_truck_controller'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8c7a5ba0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8c94eb30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8c94eb30>>, mixin_verb=('build',))
+[1.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.633s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/etruck/etruck/ws'
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['ignore', 'ignore_ament_install']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'ignore'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'ignore_ament_install'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['colcon_pkg']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'colcon_pkg'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['colcon_meta']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'colcon_meta'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['ros']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'ros'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['cmake', 'python']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'cmake'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'python'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['python_setup_py']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'python_setup_py'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extensions ['ignore', 'ignore_ament_install']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extension 'ignore'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extension 'ignore_ament_install'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extensions ['colcon_pkg']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extension 'colcon_pkg'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extensions ['colcon_meta']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extension 'colcon_meta'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extensions ['ros']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extension 'ros'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extensions ['cmake', 'python']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extension 'cmake'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extension 'python'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extensions ['python_setup_py']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/arduino) by extension 'python_setup_py'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/dump_truck_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/dump_truck_controller) by extension 'ignore'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/dump_truck_controller) by extension 'ignore_ament_install'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/dump_truck_controller) by extensions ['colcon_pkg']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/dump_truck_controller) by extension 'colcon_pkg'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/dump_truck_controller) by extensions ['colcon_meta']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/dump_truck_controller) by extension 'colcon_meta'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/dump_truck_controller) by extensions ['ros']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/dump_truck_controller) by extension 'ros'
+[1.712s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dump_truck_controller' with type 'ros.ament_python' and name 'dump_truck_controller'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber) by extensions ['ignore', 'ignore_ament_install']
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber) by extension 'ignore'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber) by extension 'ignore_ament_install'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber) by extensions ['colcon_pkg']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber) by extension 'colcon_pkg'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber) by extensions ['colcon_meta']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber) by extension 'colcon_meta'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber) by extensions ['ros']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber) by extension 'ros'
+[1.716s] DEBUG:colcon.colcon_core.package_identification:Package 'src/subscriber' with type 'ros.ament_python' and name 'etruck'
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.718s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'dumb_truck_controller' in --packages-select
+[1.848s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dump_truck_controller' in 'src/dump_truck_controller'
+[1.848s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'etruck' in 'src/subscriber'
+[1.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.862s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/etruck/etruck/ws/install
+[1.872s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[1.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.068s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.072s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.072s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.073s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.073s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.073s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.097s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.097s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.098s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.104s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.104s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.115s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.116s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etruck/etruck/ws/install/local_setup.ps1'
+[2.121s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/etruck/etruck/ws/install/_local_setup_util_ps1.py'
+[2.127s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etruck/etruck/ws/install/setup.ps1'
+[2.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etruck/etruck/ws/install/local_setup.sh'
+[2.135s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/etruck/etruck/ws/install/_local_setup_util_sh.py'
+[2.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etruck/etruck/ws/install/setup.sh'
+[2.143s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etruck/etruck/ws/install/local_setup.bash'
+[2.146s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etruck/etruck/ws/install/setup.bash'
+[2.151s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etruck/etruck/ws/install/local_setup.zsh'
+[2.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etruck/etruck/ws/install/setup.zsh'

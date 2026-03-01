@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/dump_truck_controller/dump_truck_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/dump_truck_controller/dump_truck_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/dump_truck_controller/dump_truck_controller.egg-info/entry_points.txt
+writing requirements to ../../build/dump_truck_controller/dump_truck_controller.egg-info/requires.txt
+writing top-level names to ../../build/dump_truck_controller/dump_truck_controller.egg-info/top_level.txt
+reading manifest file '../../build/dump_truck_controller/dump_truck_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/dump_truck_controller/dump_truck_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying dump_truck_controller/controller.py -> /home/etruck/etruck/ws/build/dump_truck_controller/build/lib/dump_truck_controller
+running install
+running install_lib
+copying /home/etruck/etruck/ws/build/dump_truck_controller/build/lib/dump_truck_controller/controller.py -> /home/etruck/etruck/ws/install/dump_truck_controller/lib/python3.10/site-packages/dump_truck_controller
+byte-compiling /home/etruck/etruck/ws/install/dump_truck_controller/lib/python3.10/site-packages/dump_truck_controller/controller.py to controller.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/etruck/etruck/ws/install/dump_truck_controller/lib/python3.10/site-packages/dump_truck_controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/dump_truck_controller/dump_truck_controller.egg-info to /home/etruck/etruck/ws/install/dump_truck_controller/lib/python3.10/site-packages/dump_truck_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/etruck/etruck/ws/install/dump_truck_controller/lib/dump_truck_controller
+writing list of installed files to '/home/etruck/etruck/ws/build/dump_truck_controller/install.log'

@@ -1,0 +1,3 @@
+[console_scripts]
+subscriber = subscriber.subscriber:main
+

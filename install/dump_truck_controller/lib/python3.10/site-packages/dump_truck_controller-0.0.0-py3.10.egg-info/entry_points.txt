@@ -1,0 +1,3 @@
+[console_scripts]
+controller = dump_truck_controller.controller:main
+

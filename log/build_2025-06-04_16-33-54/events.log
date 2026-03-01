@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.001148] (-) JobUnselected: {'identifier': 'dump_truck_controller'}
+[0.001724] (-) JobUnselected: {'identifier': 'etruck'}
+[0.002611] (-) EventReactorShutdown: {}

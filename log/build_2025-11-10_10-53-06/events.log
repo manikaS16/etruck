@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.001373] (etruck) JobQueued: {'identifier': 'etruck', 'dependencies': OrderedDict()}
+[0.001613] (etruck) JobStarted: {'identifier': 'etruck'}
+[0.097391] (-) TimerEvent: {}
+[0.198230] (-) TimerEvent: {}
+[0.299079] (-) TimerEvent: {}
+[0.399860] (-) TimerEvent: {}
+[0.500552] (-) TimerEvent: {}
+[0.601222] (-) TimerEvent: {}
+[0.701838] (-) TimerEvent: {}
+[0.802489] (-) TimerEvent: {}
+[0.903150] (-) TimerEvent: {}
+[1.004022] (-) TimerEvent: {}
+[1.105251] (-) TimerEvent: {}
+[1.205905] (-) TimerEvent: {}
+[1.306634] (-) TimerEvent: {}
+[1.407584] (-) TimerEvent: {}
+[1.508307] (-) TimerEvent: {}
+[1.609016] (-) TimerEvent: {}
+[1.709663] (-) TimerEvent: {}
+[1.810332] (-) TimerEvent: {}
+[1.910996] (-) TimerEvent: {}
+[2.011731] (-) TimerEvent: {}
+[2.112471] (-) TimerEvent: {}
+[2.213193] (-) TimerEvent: {}
+[2.313900] (-) TimerEvent: {}
+[2.414732] (-) TimerEvent: {}
+[2.489711] (etruck) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/etruck', 'build', '--build-base', '/home/etruck/etruck/ws/build/etruck/build', 'install', '--record', '/home/etruck/etruck/ws/build/etruck/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/etruck/etruck/ws/src/subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'etruck', 'LC_TIME': 'sv_SE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/etruck', 'OLDPWD': '/home/etruck/etruck', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'sv_SE.UTF-8', 'SYSTEMD_EXEC_PID': '1736', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'etruck', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'etruck', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/etruck/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/etruck:@/tmp/.ICE-unix/1702,unix/etruck:/tmp/.ICE-unix/1702', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'sv_SE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/131d0226_127c_4066_9e1c_79f0c7932b52', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'sv_SE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BV5572', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.134', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'LC_NAME': 'sv_SE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sv_SE.UTF-8', 'LC_IDENTIFICATION': 'sv_SE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/etruck/etruck/ws/build/etruck', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LC_NUMERIC': 'sv_SE.UTF-8', 'LC_PAPER': 'sv_SE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/etruck/etruck/ws/build/etruck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages:'}, 'shell': False}
+[2.514920] (-) TimerEvent: {}
+[2.616247] (-) TimerEvent: {}
+[2.717003] (-) TimerEvent: {}
+[2.817671] (-) TimerEvent: {}
+[2.918317] (-) TimerEvent: {}
+[3.018974] (-) TimerEvent: {}
+[3.119639] (-) TimerEvent: {}
+[3.220435] (-) TimerEvent: {}
+[3.321064] (-) TimerEvent: {}
+[3.379993] (etruck) StdoutLine: {'line': b'running egg_info\n'}
+[3.382448] (etruck) StdoutLine: {'line': b'creating ../../build/etruck/subscriber.egg-info\n'}
+[3.383193] (etruck) StdoutLine: {'line': b'writing ../../build/etruck/subscriber.egg-info/PKG-INFO\n'}
+[3.385040] (etruck) StdoutLine: {'line': b'writing dependency_links to ../../build/etruck/subscriber.egg-info/dependency_links.txt\n'}
+[3.385716] (etruck) StdoutLine: {'line': b'writing entry points to ../../build/etruck/subscriber.egg-info/entry_points.txt\n'}
+[3.386248] (etruck) StdoutLine: {'line': b'writing requirements to ../../build/etruck/subscriber.egg-info/requires.txt\n'}
+[3.386807] (etruck) StdoutLine: {'line': b'writing top-level names to ../../build/etruck/subscriber.egg-info/top_level.txt\n'}
+[3.387699] (etruck) StdoutLine: {'line': b"writing manifest file '../../build/etruck/subscriber.egg-info/SOURCES.txt'\n"}
+[3.393974] (etruck) StdoutLine: {'line': b"reading manifest file '../../build/etruck/subscriber.egg-info/SOURCES.txt'\n"}
+[3.397157] (etruck) StdoutLine: {'line': b"writing manifest file '../../build/etruck/subscriber.egg-info/SOURCES.txt'\n"}
+[3.397805] (etruck) StdoutLine: {'line': b'running build\n'}
+[3.398269] (etruck) StdoutLine: {'line': b'running build_py\n'}
+[3.398722] (etruck) StdoutLine: {'line': b'creating /home/etruck/etruck/ws/build/etruck/build\n'}
+[3.399277] (etruck) StdoutLine: {'line': b'creating /home/etruck/etruck/ws/build/etruck/build/lib\n'}
+[3.399799] (etruck) StdoutLine: {'line': b'creating /home/etruck/etruck/ws/build/etruck/build/lib/subscriber\n'}
+[3.400133] (etruck) StdoutLine: {'line': b'copying subscriber/__init__.py -> /home/etruck/etruck/ws/build/etruck/build/lib/subscriber\n'}
+[3.400842] (etruck) StdoutLine: {'line': b'copying subscriber/subscriber.py -> /home/etruck/etruck/ws/build/etruck/build/lib/subscriber\n'}
+[3.401553] (etruck) StdoutLine: {'line': b'running install\n'}
+[3.402827] (etruck) StdoutLine: {'line': b'running install_lib\n'}
+[3.405559] (etruck) StdoutLine: {'line': b'creating /home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages/subscriber\n'}
+[3.406138] (etruck) StdoutLine: {'line': b'copying /home/etruck/etruck/ws/build/etruck/build/lib/subscriber/__init__.py -> /home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages/subscriber\n'}
+[3.406726] (etruck) StdoutLine: {'line': b'copying /home/etruck/etruck/ws/build/etruck/build/lib/subscriber/subscriber.py -> /home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages/subscriber\n'}
+[3.409747] (etruck) StdoutLine: {'line': b'byte-compiling /home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages/subscriber/__init__.py to __init__.cpython-310.pyc\n'}
+[3.411093] (etruck) StdoutLine: {'line': b'byte-compiling /home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages/subscriber/subscriber.py to subscriber.cpython-310.pyc\n'}
+[3.413233] (etruck) StdoutLine: {'line': b'running install_data\n'}
+[3.413847] (etruck) StdoutLine: {'line': b'copying resource/subscriber -> /home/etruck/etruck/ws/install/etruck/share/ament_index/resource_index/packages\n'}
+[3.414348] (etruck) StdoutLine: {'line': b'creating /home/etruck/etruck/ws/install/etruck/share/subscriber\n'}
+[3.414849] (etruck) StdoutLine: {'line': b'copying package.xml -> /home/etruck/etruck/ws/install/etruck/share/subscriber\n'}
+[3.415344] (etruck) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.421238] (-) TimerEvent: {}
+[3.422136] (etruck) StdoutLine: {'line': b'Copying ../../build/etruck/subscriber.egg-info to /home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages/subscriber-0.0.0-py3.10.egg-info\n'}
+[3.427370] (etruck) StdoutLine: {'line': b'running install_scripts\n'}
+[3.508174] (etruck) StdoutLine: {'line': b'Installing subscriber script to /home/etruck/etruck/ws/install/etruck/lib/subscriber\n'}
+[3.509671] (etruck) StdoutLine: {'line': b"writing list of installed files to '/home/etruck/etruck/ws/build/etruck/install.log'\n"}
+[3.521524] (-) TimerEvent: {}
+[3.622674] (-) TimerEvent: {}
+[3.634033] (etruck) CommandEnded: {'returncode': 0}
+[3.700199] (etruck) JobEnded: {'identifier': 'etruck', 'rc': 0}
+[3.702910] (-) EventReactorShutdown: {}

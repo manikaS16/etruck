@@ -1,0 +1,35 @@
+[2.490s] Invoking command in '/home/etruck/etruck/ws/src/subscriber': PYTHONPATH=/home/etruck/etruck/ws/build/etruck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/etruck build --build-base /home/etruck/etruck/ws/build/etruck/build install --record /home/etruck/etruck/ws/build/etruck/install.log --single-version-externally-managed install_data
+[3.379s] running egg_info
+[3.381s] creating ../../build/etruck/subscriber.egg-info
+[3.382s] writing ../../build/etruck/subscriber.egg-info/PKG-INFO
+[3.384s] writing dependency_links to ../../build/etruck/subscriber.egg-info/dependency_links.txt
+[3.384s] writing entry points to ../../build/etruck/subscriber.egg-info/entry_points.txt
+[3.385s] writing requirements to ../../build/etruck/subscriber.egg-info/requires.txt
+[3.385s] writing top-level names to ../../build/etruck/subscriber.egg-info/top_level.txt
+[3.386s] writing manifest file '../../build/etruck/subscriber.egg-info/SOURCES.txt'
+[3.392s] reading manifest file '../../build/etruck/subscriber.egg-info/SOURCES.txt'
+[3.396s] writing manifest file '../../build/etruck/subscriber.egg-info/SOURCES.txt'
+[3.396s] running build
+[3.397s] running build_py
+[3.397s] creating /home/etruck/etruck/ws/build/etruck/build
+[3.398s] creating /home/etruck/etruck/ws/build/etruck/build/lib
+[3.398s] creating /home/etruck/etruck/ws/build/etruck/build/lib/subscriber
+[3.399s] copying subscriber/__init__.py -> /home/etruck/etruck/ws/build/etruck/build/lib/subscriber
+[3.399s] copying subscriber/subscriber.py -> /home/etruck/etruck/ws/build/etruck/build/lib/subscriber
+[3.400s] running install
+[3.401s] running install_lib
+[3.404s] creating /home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages/subscriber
+[3.405s] copying /home/etruck/etruck/ws/build/etruck/build/lib/subscriber/__init__.py -> /home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages/subscriber
+[3.405s] copying /home/etruck/etruck/ws/build/etruck/build/lib/subscriber/subscriber.py -> /home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages/subscriber
+[3.408s] byte-compiling /home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages/subscriber/__init__.py to __init__.cpython-310.pyc
+[3.410s] byte-compiling /home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages/subscriber/subscriber.py to subscriber.cpython-310.pyc
+[3.412s] running install_data
+[3.412s] copying resource/subscriber -> /home/etruck/etruck/ws/install/etruck/share/ament_index/resource_index/packages
+[3.413s] creating /home/etruck/etruck/ws/install/etruck/share/subscriber
+[3.413s] copying package.xml -> /home/etruck/etruck/ws/install/etruck/share/subscriber
+[3.414s] running install_egg_info
+[3.421s] Copying ../../build/etruck/subscriber.egg-info to /home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages/subscriber-0.0.0-py3.10.egg-info
+[3.426s] running install_scripts
+[3.507s] Installing subscriber script to /home/etruck/etruck/ws/install/etruck/lib/subscriber
+[3.508s] writing list of installed files to '/home/etruck/etruck/ws/build/etruck/install.log'
+[3.633s] Invoked command in '/home/etruck/etruck/ws/src/subscriber' returned '0': PYTHONPATH=/home/etruck/etruck/ws/build/etruck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/etruck build --build-base /home/etruck/etruck/ws/build/etruck/build install --record /home/etruck/etruck/ws/build/etruck/install.log --single-version-externally-managed install_data

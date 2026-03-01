@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.001699] (-) JobUnselected: {'identifier': 'etruck'}
+[0.002364] (dump_truck_controller) JobQueued: {'identifier': 'dump_truck_controller', 'dependencies': OrderedDict()}
+[0.002472] (dump_truck_controller) JobStarted: {'identifier': 'dump_truck_controller'}
+[0.098985] (-) TimerEvent: {}
+[0.199610] (-) TimerEvent: {}
+[0.300255] (-) TimerEvent: {}
+[0.400953] (-) TimerEvent: {}
+[0.501720] (-) TimerEvent: {}
+[0.602366] (-) TimerEvent: {}
+[0.703033] (-) TimerEvent: {}
+[0.803652] (-) TimerEvent: {}
+[0.904299] (-) TimerEvent: {}
+[1.004941] (-) TimerEvent: {}
+[1.105635] (-) TimerEvent: {}
+[1.206411] (-) TimerEvent: {}
+[1.307541] (-) TimerEvent: {}
+[1.408205] (-) TimerEvent: {}
+[1.508848] (-) TimerEvent: {}
+[1.609609] (-) TimerEvent: {}
+[1.710268] (-) TimerEvent: {}
+[1.810861] (-) TimerEvent: {}
+[1.911480] (-) TimerEvent: {}
+[2.012087] (-) TimerEvent: {}
+[2.112707] (-) TimerEvent: {}
+[2.213338] (-) TimerEvent: {}
+[2.314019] (-) TimerEvent: {}
+[2.414838] (-) TimerEvent: {}
+[2.515575] (-) TimerEvent: {}
+[2.616421] (-) TimerEvent: {}
+[2.717822] (-) TimerEvent: {}
+[2.750836] (dump_truck_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dump_truck_controller', 'build', '--build-base', '/home/etruck/etruck/ws/build/dump_truck_controller/build', 'install', '--record', '/home/etruck/etruck/ws/build/dump_truck_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/etruck/etruck/ws/src/dump_truck_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,2855,0', 'USER': 'etruck', 'SSH_CLIENT': '192.168.50.230 35068 22', 'LC_TIME': 'sv_SE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/etruck', 'OLDPWD': '/home/etruck/etruck', 'TERM_PROGRAM_VERSION': '3.2a', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'sv_SE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/etruck/etruck/ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'etruck', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'screen', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/etruck/.local/bin:/opt/ros/humble/bin:/home/etruck/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'sv_SE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'sv_SE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/home/etruck/etruck/ws/install/etruck:/home/etruck/etruck/ws/install/dump_truck_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'sv_SE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sv_SE.UTF-8', 'LC_IDENTIFICATION': 'sv_SE.UTF-8', 'PWD': '/home/etruck/etruck/ws/build/dump_truck_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.230 35068 192.168.50.197 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/etruck/etruck/ws/build/dump_truck_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etruck/etruck/ws/install/dump_truck_controller/lib/python3.10/site-packages:/home/etruck/etruck/ws/install/etruck/lib/python3.10/site-packages:/home/etruck/etruck/ws/install/dump_truck_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'sv_SE.UTF-8', 'LC_PAPER': 'sv_SE.UTF-8', 'COLCON': '1', 'TMUX_PANE': '%1'}, 'shell': False}
+[2.817950] (-) TimerEvent: {}
+[2.918665] (-) TimerEvent: {}
+[3.019356] (-) TimerEvent: {}
+[3.120103] (-) TimerEvent: {}
+[3.220721] (-) TimerEvent: {}
+[3.321351] (-) TimerEvent: {}
+[3.422032] (-) TimerEvent: {}
+[3.522616] (-) TimerEvent: {}
+[3.623269] (-) TimerEvent: {}
+[3.723919] (-) TimerEvent: {}
+[3.824584] (-) TimerEvent: {}
+[3.856018] (dump_truck_controller) StdoutLine: {'line': b'running egg_info\n'}
+[3.858942] (dump_truck_controller) StdoutLine: {'line': b'writing ../../build/dump_truck_controller/dump_truck_controller.egg-info/PKG-INFO\n'}
+[3.859969] (dump_truck_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/dump_truck_controller/dump_truck_controller.egg-info/dependency_links.txt\n'}
+[3.860934] (dump_truck_controller) StdoutLine: {'line': b'writing entry points to ../../build/dump_truck_controller/dump_truck_controller.egg-info/entry_points.txt\n'}
+[3.861845] (dump_truck_controller) StdoutLine: {'line': b'writing requirements to ../../build/dump_truck_controller/dump_truck_controller.egg-info/requires.txt\n'}
+[3.862419] (dump_truck_controller) StdoutLine: {'line': b'writing top-level names to ../../build/dump_truck_controller/dump_truck_controller.egg-info/top_level.txt\n'}
+[3.871121] (dump_truck_controller) StdoutLine: {'line': b"reading manifest file '../../build/dump_truck_controller/dump_truck_controller.egg-info/SOURCES.txt'\n"}
+[3.875010] (dump_truck_controller) StdoutLine: {'line': b"writing manifest file '../../build/dump_truck_controller/dump_truck_controller.egg-info/SOURCES.txt'\n"}
+[3.875656] (dump_truck_controller) StdoutLine: {'line': b'running build\n'}
+[3.876096] (dump_truck_controller) StdoutLine: {'line': b'running build_py\n'}
+[3.876570] (dump_truck_controller) StdoutLine: {'line': b'copying dump_truck_controller/controller.py -> /home/etruck/etruck/ws/build/dump_truck_controller/build/lib/dump_truck_controller\n'}
+[3.878382] (dump_truck_controller) StdoutLine: {'line': b'running install\n'}
+[3.879569] (dump_truck_controller) StdoutLine: {'line': b'running install_lib\n'}
+[3.882690] (dump_truck_controller) StdoutLine: {'line': b'copying /home/etruck/etruck/ws/build/dump_truck_controller/build/lib/dump_truck_controller/controller.py -> /home/etruck/etruck/ws/install/dump_truck_controller/lib/python3.10/site-packages/dump_truck_controller\n'}
+[3.885619] (dump_truck_controller) StdoutLine: {'line': b'byte-compiling /home/etruck/etruck/ws/install/dump_truck_controller/lib/python3.10/site-packages/dump_truck_controller/controller.py to controller.cpython-310.pyc\n'}
+[3.901750] (dump_truck_controller) StdoutLine: {'line': b'running install_data\n'}
+[3.902501] (dump_truck_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.908698] (dump_truck_controller) StdoutLine: {'line': b"removing '/home/etruck/etruck/ws/install/dump_truck_controller/lib/python3.10/site-packages/dump_truck_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.910427] (dump_truck_controller) StdoutLine: {'line': b'Copying ../../build/dump_truck_controller/dump_truck_controller.egg-info to /home/etruck/etruck/ws/install/dump_truck_controller/lib/python3.10/site-packages/dump_truck_controller-0.0.0-py3.10.egg-info\n'}
+[3.915924] (dump_truck_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[3.924747] (-) TimerEvent: {}
+[3.991825] (dump_truck_controller) StdoutLine: {'line': b'Installing controller script to /home/etruck/etruck/ws/install/dump_truck_controller/lib/dump_truck_controller\n'}
+[3.993501] (dump_truck_controller) StdoutLine: {'line': b"writing list of installed files to '/home/etruck/etruck/ws/build/dump_truck_controller/install.log'\n"}
+[4.025014] (-) TimerEvent: {}
+[4.108795] (dump_truck_controller) CommandEnded: {'returncode': 0}
+[4.125340] (-) TimerEvent: {}
+[4.159923] (dump_truck_controller) JobEnded: {'identifier': 'dump_truck_controller', 'rc': 0}
+[4.162771] (-) EventReactorShutdown: {}
