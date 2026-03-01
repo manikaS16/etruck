@@ -1,0 +1,1 @@
+ros2 topic pub -1 /cmd_vel geometry_msgs/Twist "{angular: {z: 0.0}}
